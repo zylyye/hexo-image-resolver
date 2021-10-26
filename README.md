@@ -5,7 +5,10 @@ Custom your local image url in generation.
 
 # Usage
 
-`npm i hexo-image-resolver --save`
+```shell
+npm i hexo-image-resolver --save
+```
+
 
 If you are using **Post Asset Folder** (turn on this feature by setting `post_asset_folder: true` in your `_config.yml`), the plugin will resolve your local image path **automatically**, you don't need any extra configuration.
 
@@ -15,10 +18,10 @@ If you are using **Post Asset Folder** (turn on this feature by setting `post_as
 
 You can add following settings in your `_config.yml` to custom your own image url:
 
-```
+```yaml
 image_resolver:
-	# this is the default setting
-	path: /${permalink}${img_name}
+  # this is the default setting
+  path: /${permalink}${img_name}
 ```
 
 The  `path` will determine how the image's url generates, here are full of usable parameters:
