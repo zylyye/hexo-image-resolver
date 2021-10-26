@@ -1,0 +1,11 @@
+{
+  "name": "hexo-image-resolver",
+  "version": "1.0.0",
+  "description": "A brief image url resolver for Hexo",
+  "main": "index.js",
+  "author": "zylyye",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10"
+  }
+}
