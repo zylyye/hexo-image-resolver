@@ -1,15 +1,9 @@
 'use strict'
 const cheerio = require('cheerio')
 
-// asset_dir /Users/zhuyilong/Documents/Personal/blog_new/source/_posts/read-note/software-release-life-cycle/
-// slug read-note/software-release-life-cycle
-// path 2021/10/25/read-note/software-release-life-cycle/
-// permalink https://zylyye.cn/2021/10/25/read-note/software-release-life-cycle/
-
 // parameters supported by this plugin
 const getSupportedParamMap = (data) => {
   let { slug = '', path = '', permalink = '', title = '' } = data
-  console.log('===', typeof permalink)
   permalink = permalink.replace(/^http(s)?:\/\/(\S)+?\//, '')
   let full_filename = slug
   let filename = slug.split('/').pop()
