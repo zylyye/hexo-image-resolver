@@ -41,7 +41,7 @@ hexo.extend.filter.register('after_post_render', (data) => {
       xmlMode: false,
       lowerCaseTags: false,
       decodeEntities: false
-    });
+    }, false);
     $('img').each(function () {
       let img = $(this)
       let src = img.attr('src') || ''
