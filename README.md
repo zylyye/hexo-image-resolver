@@ -3,6 +3,8 @@
 
 Custom your local image url in generation.
 
+[![Latest Stable Version](https://img.shields.io/npm/v/hexo-image-resolver.svg)](https://www.npmjs.com/package/hexo-image-resolver) [![NPM Downloads](https://img.shields.io/npm/dm/hexo-image-resolver.svg)](https://npmjs.org/package/hexo-image-resolver) [![GitHub stars](https://img.shields.io/github/stars/zylyye/hexo-image-resolver?style=social&label=Star)](https://github.com/zylyye/hexo-image-resolver)
+
 # Usage
 
 ```shell
@@ -10,7 +12,7 @@ npm i hexo-image-resolver --save
 ```
 
 
-If you are using **Post Asset Folder** (turn on this feature by setting `post_asset_folder: true` in your `_config.yml`), the plugin will resolve your local image path **automatically**, you don't need any extra configuration.
+If you are using **[Post Asset Folder](https://hexo.io/docs/asset-folders.html)** (turn on this feature by setting `post_asset_folder: true` in your `_config.yml`), the plugin will resolve your local image path **automatically**, you don't need any extra configuration.
 
 
 
