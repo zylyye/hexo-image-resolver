@@ -1,6 +1,6 @@
 {
   "name": "hexo-image-resolver",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A brief image url resolver for Hexo",
   "main": "index.js",
   "author": "zylyye",

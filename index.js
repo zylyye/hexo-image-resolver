@@ -27,7 +27,7 @@ const getCustomizedImgSrc = (src, paramsMap) => {
   paramsMap.img_name = src.split('/').pop()
   // replace parameter which defined in map
   for (let key in paramsMap) {
-    path = path.replace(`\$\{${key}\}`, paramsMap[key])
+    path = path.replaceAll(`\$\{${key}\}`, paramsMap[key])
   }
   return path
 }
