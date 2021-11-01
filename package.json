@@ -1,7 +1,11 @@
 {
   "name": "hexo-image-resolver",
   "version": "1.0.3",
-  "description": "A brief image url resolver for Hexo",
+  "description": "Custom your local image url in generation",
+  "keywords": [
+    "hexo",
+    "image"
+  ],
   "main": "index.js",
   "author": "zylyye",
   "license": "MIT",
